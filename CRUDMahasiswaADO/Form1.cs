@@ -11,12 +11,11 @@ using System.Windows.Forms;
 
 namespace CRUDMahasiswaADO
 {
-    private readonly SqlConnection conn;
-    private readonly String connectionString = "Data Source=Rayhan\\RAYHANFATIHR;Initial Catalog=DBAkademikADO;Integrated Security=True";
-
-    public partial class Form1 : Form
+    public partial class FormMahasiswa : Form
     {
-        public FromMahasiswa()
+        private readonly SqlConnection conn;
+        private readonly String connectionString = "Data Source=Rayhan\\RAYHANFATIHR;Initial Catalog=DBAkademikADO;Integrated Security=True";
+        public FormMahasiswa()
         {
             InitializeComponent();
             conn = new SqlConnection(connectionString);
@@ -33,11 +32,10 @@ namespace CRUDMahasiswaADO
 
                 MessageBox.Show("Koneksi berhasil");
             }
-        }
-
-        public Form1()
-        {
-            InitializeComponent();
+            catch (Exception ex)
+            {
+                MessageBox.Show("Koneksi gagal: " + ex.Message);
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -46,6 +44,16 @@ namespace CRUDMahasiswaADO
         }
 
         private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConnectDatabase();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
