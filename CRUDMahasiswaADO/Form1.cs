@@ -76,6 +76,18 @@ namespace CRUDMahasiswaADO
 
                 SqlCommand cmd = new SqlCommand(query, conn);
                 SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    dataGridView1.Rows.Add(
+                        reader["NIM"].ToString(),
+                        reader["Nama"].ToString(),
+                        reader["JenisKelamin"].ToString(),
+                        Convert.ToDateTime(reader["TanggalLahir"]).ToShortDateString(),
+                        reader["Alamat"].ToString(),
+                        reader["KodeProdi"].ToString()
+                    );
+                }
             }
     }
 }
