@@ -95,5 +95,15 @@ namespace CRUDMahasiswaADO
                 MessageBox.Show("Gagal menampilkan data: " + ex.Message);
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (conn.State == System.Data.ConnectionState.Closed)
+                {
+                    conn.Open();
+                }
+            }
     }
 }
