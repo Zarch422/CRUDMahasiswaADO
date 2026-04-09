@@ -119,7 +119,19 @@ namespace CRUDMahasiswaADO
                     return;
                 }
 
+                if (cmbJK.Text == "")
+                {
+                    MessageBox.Show("Jenis Kelamin harus dipilih");
+                    cmbJK.Focus();
+                    return;
+                }
 
+                if (txtKodeProdi.Text == "")
+                {
+                    MessageBox.Show("Kode Prodi harus diisi");
+                    txtKodeProdi.Focus();
+                    return;
+                }
             }
     }
     }
