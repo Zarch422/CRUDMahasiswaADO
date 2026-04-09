@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textNIM = new System.Windows.Forms.TextBox();
-            this.textNama = new System.Windows.Forms.TextBox();
+            this.labe1 = new System.Windows.Forms.Label();
+            this.txtNIM = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textAlamat = new System.Windows.Forms.TextBox();
+            this.txtAlamat = new System.Windows.Forms.TextBox();
             this.cmbJK = new System.Windows.Forms.ComboBox();
             this.dtpTanggalLahir = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
-            this.textKodeProdi = new System.Windows.Forms.TextBox();
+            this.txtKodeProdi = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -49,28 +49,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labe1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "NIM";
+            this.labe1.AutoSize = true;
+            this.labe1.Location = new System.Drawing.Point(82, 67);
+            this.labe1.Name = "labe1";
+            this.labe1.Size = new System.Drawing.Size(27, 13);
+            this.labe1.TabIndex = 0;
+            this.labe1.Text = "NIM";
             // 
-            // textNIM
+            // txtNIM
             // 
-            this.textNIM.Location = new System.Drawing.Point(123, 64);
-            this.textNIM.Name = "textNIM";
-            this.textNIM.Size = new System.Drawing.Size(201, 20);
-            this.textNIM.TabIndex = 1;
+            this.txtNIM.Location = new System.Drawing.Point(123, 64);
+            this.txtNIM.Name = "txtNIM";
+            this.txtNIM.Size = new System.Drawing.Size(201, 20);
+            this.txtNIM.TabIndex = 1;
             // 
-            // textNama
+            // txtNama
             // 
-            this.textNama.Location = new System.Drawing.Point(123, 102);
-            this.textNama.Name = "textNama";
-            this.textNama.Size = new System.Drawing.Size(201, 20);
-            this.textNama.TabIndex = 2;
+            this.txtNama.Location = new System.Drawing.Point(123, 102);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(201, 20);
+            this.txtNama.TabIndex = 2;
             // 
             // label2
             // 
@@ -109,12 +109,12 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Tanggal Lahir";
             // 
-            // textAlamat
+            // txtAlamat
             // 
-            this.textAlamat.Location = new System.Drawing.Point(123, 143);
-            this.textAlamat.Name = "textAlamat";
-            this.textAlamat.Size = new System.Drawing.Size(201, 20);
-            this.textAlamat.TabIndex = 7;
+            this.txtAlamat.Location = new System.Drawing.Point(123, 143);
+            this.txtAlamat.Name = "txtAlamat";
+            this.txtAlamat.Size = new System.Drawing.Size(201, 20);
+            this.txtAlamat.TabIndex = 7;
             // 
             // cmbJK
             // 
@@ -140,12 +140,12 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Kode Prodi";
             // 
-            // textKodeProdi
+            // txtKodeProdi
             // 
-            this.textKodeProdi.Location = new System.Drawing.Point(123, 274);
-            this.textKodeProdi.Name = "textKodeProdi";
-            this.textKodeProdi.Size = new System.Drawing.Size(201, 20);
-            this.textKodeProdi.TabIndex = 12;
+            this.txtKodeProdi.Location = new System.Drawing.Point(123, 274);
+            this.txtKodeProdi.Name = "txtKodeProdi";
+            this.txtKodeProdi.Size = new System.Drawing.Size(201, 20);
+            this.txtKodeProdi.TabIndex = 12;
             // 
             // button1
             // 
@@ -215,18 +215,18 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textKodeProdi);
+            this.Controls.Add(this.txtKodeProdi);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dtpTanggalLahir);
             this.Controls.Add(this.cmbJK);
-            this.Controls.Add(this.textAlamat);
+            this.Controls.Add(this.txtAlamat);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textNama);
-            this.Controls.Add(this.textNIM);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtNama);
+            this.Controls.Add(this.txtNIM);
+            this.Controls.Add(this.labe1);
             this.Name = "FormMahasiswa";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -237,18 +237,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textNIM;
-        private System.Windows.Forms.TextBox textNama;
+        private System.Windows.Forms.Label labe1;
+        private System.Windows.Forms.TextBox txtNIM;
+        private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textAlamat;
+        private System.Windows.Forms.TextBox txtAlamat;
         private System.Windows.Forms.ComboBox cmbJK;
         private System.Windows.Forms.DateTimePicker dtpTanggalLahir;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textKodeProdi;
+        private System.Windows.Forms.TextBox txtKodeProdi;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;

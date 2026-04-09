@@ -104,6 +104,22 @@ namespace CRUDMahasiswaADO
                 {
                     conn.Open();
                 }
+
+                if (txtNIM.Text == "")
+                {
+                    MessageBox.Show("NIM harus diisi");
+                    labe1.Focus();
+                    return;
+                }
+
+                if (txtNama.Text == "")
+                {
+                    MessageBox.Show("Nama harus diisi");
+                    txtNama.Focus();
+                    return;
+                }
+
+
             }
     }
-}
+    }
