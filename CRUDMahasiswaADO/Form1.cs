@@ -278,6 +278,8 @@ namespace CRUDMahasiswaADO
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'dBAkademikADODataSet.Mahasiswa' table. You can move, or remove it, as needed.
+            this.mahasiswaTableAdapter.Fill(this.dBAkademikADODataSet.Mahasiswa);
             cmbJK.Items.Clear();
             cmbJK.Items.Add("L");
             cmbJK.Items.Add("P");
@@ -292,6 +294,21 @@ namespace CRUDMahasiswaADO
         }
 
         private void cmbJK_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNama_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNIM_TextChanged(object sender, EventArgs e)
         {
 
         }
